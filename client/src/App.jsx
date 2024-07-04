@@ -1,8 +1,8 @@
 import "./App.css";
-import FormCan from "./components/FormCan";
+import ProfileCards from "./components/Profils";
 
 function App() {
-  return <FormCan />;
+  return <ProfileCards />;
 }
 
 export default App;
