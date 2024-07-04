@@ -17,11 +17,11 @@
   margin-bottom: 2em;
 }
 
-.form-container {
+.form-container-employer {
   padding: 20px;
   border-radius: 10px;
   width: 25em;
-  margin-top: 10em;
+  margin-top: 6.5em;
 }
 
 form {
@@ -118,12 +118,12 @@ button:hover {
   font-size: 1.5rem;
   cursor: pointer;
   color: white;
-  margin-right: 0.3em;
+  margin-right: -11em;
 }
 
 .close-btn:hover {
-  background-color: #54d254;
   border-radius: 5px;
+  background: none;
 }
 
 .popup-content {
@@ -151,6 +151,7 @@ button:hover {
   cursor: pointer;
   margin-top: 24em;
   margin-right: 2em;
+  margin-left: 0;
 }
 
 .popup-content .btn_label:hover {
