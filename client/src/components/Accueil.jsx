@@ -9,12 +9,12 @@ function Accueil() {
           .
         </button>
       </Link>
-      <Link to="/employeur">
+      <Link to="/EmployeurForm">
         <button type="button" className="button-employeur">
           .
         </button>
       </Link>
-      <Link to="/connexion">
+      <Link to="/EmployeurConnexion">
         <button type="button" className="button-connexion">
           .
         </button>
