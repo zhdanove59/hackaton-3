@@ -68,10 +68,6 @@ form textarea {
   margin-top: 1em;
 }
 
-button:hover {
-  background-color: #00004d;
-}
-
 /* Styles pour la popup */
 
 .popup-overlay {

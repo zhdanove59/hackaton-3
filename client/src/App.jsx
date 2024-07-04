@@ -1,6 +1,6 @@
-import Inscription from "./components/Formulaires/Inscription";
+import { Outlet } from "react-router-dom";
 
 function App() {
-  return <Inscription />;
+  return <Outlet />;
 }
 export default App;
