@@ -105,14 +105,14 @@ form textarea {
 
 .close-btn {
   position: absolute;
-  top: 10px;
+  top: 16px;
   right: 10px;
   background: none;
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
   color: white;
-  margin-right: -11em;
+  margin-right: 0.5em;
 }
 
 .close-btn:hover {
