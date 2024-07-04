@@ -1,0 +1,94 @@
+.form-container1 {
+  width: 30%;
+  margin: 0 auto;
+  padding: 10rem;
+  /*border: 1px solid #ccc;*/
+  /*border-radius: 10px;*/
+  background-color: transparent;
+  margin-bottom: 30rem;
+}
+.body-form {
+  background-image: url(../../src/assets/images/backgrounde.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.container-formcar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.ins {
+  display: flex;
+  justify-content: center;
+}
+.iconhome {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+}
+.home-icon {
+  transition: transform 0.2s ease-in-out;
+}
+.home-icon:hover {
+  transform: scale(1.2);
+}
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+
+  background-color: #e6f3e9;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-primary {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.label-inscription {
+  color: #000000;
+}
+.confirmation-message {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #4caf50;
+  border-radius: 5px;
+  background-color: #dff0d8;
+  color: #3c763d;
+  text-align: center;
+}
