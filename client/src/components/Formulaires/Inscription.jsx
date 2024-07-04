@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./Inscription.css";
 import { Link } from "react-router-dom";
 
-function FormCan() {
+function Inscription() {
   const [formData, setFormData] = useState({
     nom: "",
     prenom: "",
@@ -116,4 +116,4 @@ function FormCan() {
   );
 }
 
-export default FormCan;
+export default Inscription;
