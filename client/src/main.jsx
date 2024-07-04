@@ -8,12 +8,25 @@ import CandidatFormulaire from "./pages/CandidatFormulaire/CandidatFormulaire";
 import ProfilsRetour from "./components/Profils/Profils";
 
 import App from "./App";
+import Accueil from "./components/Accueil";
+import FormCan from "./components/FormCan";
 
 const router = createBrowserRouter([
   {
     element: <App />,
     children: [
       {
+        path: "/",
+        element: <Accueil />,
+      },
+      {
+        path: "/candidat",
+        element: <FormCan />,
+      },
+      {
+        path: "/employeur",
+        element: <>goodbye</>,
+      },
         path: "/AboutPage",
         element: <AboutPage />,
       },

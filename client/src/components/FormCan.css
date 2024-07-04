@@ -54,7 +54,7 @@
   background-color: #e6f3e9;
 }
 
-button {
+.button-submit-formcan {
   display: block;
   width: 100%;
   padding: 10px;
@@ -66,7 +66,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button-submit-formcan:hover {
   background-color: #0056b3;
 }
 

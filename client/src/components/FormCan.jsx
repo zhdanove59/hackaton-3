@@ -122,7 +122,9 @@ function FormCan() {
                 required
               />
             </div>
-            <button type="submit">Envoyer</button>
+            <button type="submit" className="button-submit-formcan">
+              Envoyer
+            </button>
           </form>
           {submitted && (
             <p className="confirmation-message">
