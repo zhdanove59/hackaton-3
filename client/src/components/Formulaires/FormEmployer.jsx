@@ -14,7 +14,7 @@ function FormEmployer() {
 
   return (
     <div className="background-container">
-      <div className="form-container">
+      <div className="form-container-employer">
         <h1 className="title">EMPLOYEUR</h1>
         <form>
           <div>
