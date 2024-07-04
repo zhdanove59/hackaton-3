@@ -10,7 +10,7 @@ import Accueil from "./components/Accueil"
 import EmployeurConnexion from "./pages/EmployeurConnexion/EmployeurConnexion";
 import App from "./App";
 import Inscription from "./components/Formulaires/Inscription";
-
+import RecapCv from "./components/RecapCv"
 
 
 const router = createBrowserRouter([
@@ -28,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "/employeur",
         element: <>employeur</>,
+      },
+      {
+        path: "/recapitulatif",
+        element: <RecapCv/>,
       },
       {
         path: "/AboutPage",
