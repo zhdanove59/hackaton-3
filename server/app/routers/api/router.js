@@ -1,5 +1,7 @@
 const express = require("express");
 
+// const fs = require('fs');
+
 const router = express.Router();
 
 /* ************************************************************************* */
@@ -9,6 +11,7 @@ const router = express.Router();
 const itemsRouter = require("./items/router");
 
 router.use("/items", itemsRouter);
+
 
 /* ************************************************************************* */
 

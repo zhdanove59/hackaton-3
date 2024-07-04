@@ -1,0 +1,79 @@
+.body-profils {
+  background-image: url(../assets/images/backgrounde.png);
+}
+.profile-cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.body-profils {
+  background-image: url(../../src/assets/images/backgrounde.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+}
+.h1-profils {
+  padding-top: 5rem;
+}
+.profils {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+.profile-card {
+  background-color: #bfe9c9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  width: 30%;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  margin-top: 2rem;
+}
+.profile-card:hover {
+  transform: scale(1.2);
+}
+.cards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 14rem;
+}
+.profile-image {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 90%;
+  margin-top: 0.5rem;
+  background-color: white;
+}
+
+.profile-name {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.profile-title {
+  color: gray;
+  font-size: 1em;
+  margin: 5px 0 20px;
+}
+.iconhome {
+  display: flex;
+  justify-content: center;
+  margin-top: 15rem;
+  margin-bottom: 2rem;
+}
+.home-icon {
+  transition: transform 0.2s ease-in-out;
+  margin-top: 5rem;
+}
+.home-icon:hover {
+  transform: scale(1.2);
+}
