@@ -14,6 +14,11 @@ function Accueil() {
           .
         </button>
       </Link>
+      <Link to="/connexion">
+        <button type="button" className="button-connexion">
+          .
+        </button>
+      </Link>
       <img
         src="src/assets/images/Page d'accueil.png"
         alt="salut"

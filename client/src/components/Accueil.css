@@ -30,3 +30,15 @@
   position: absolute;
   cursor: pointer;
 }
+
+.button-connexion {
+  width: 25em;
+  height: 10em;
+  top: 0em;
+  right: 0em;
+  background-color: transparent;
+  border: none;
+  z-index: 1;
+  position: absolute;
+  cursor: pointer;
+}
