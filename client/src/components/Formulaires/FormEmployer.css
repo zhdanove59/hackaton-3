@@ -1,0 +1,157 @@
+/* Styles existants... */
+
+.background-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets/images/backgrounde.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.form-container {
+  padding: 20px;
+  border-radius: 10px;
+  width: 25em;
+  margin-top: 10em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  margin-bottom: 5px;
+  color: #c8b7b7;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #e6f4e5;
+  border: 0;
+  margin-top: 0.5em;
+}
+
+form textarea {
+  height: 100px;
+}
+
+.btn_flex {
+  display: flex;
+  justify-content: center;
+}
+
+.btn_label {
+  padding: 8px;
+  background-color: #214872;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 1.5em;
+  margin-top: 1em;
+}
+
+button:hover {
+  background-color: #00004d;
+}
+
+/* Styles pour la popup */
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup {
+  background-image: url(../../assets/images/popupLabel.png);
+  background-size: 137%;
+  background-position: center;
+  padding: 40px;
+  border-radius: 40px;
+  width: 500px;
+  height: 500px;
+  max-width: 80%;
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  margin-top: 5em;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: white;
+  margin-right: 0.3em;
+}
+
+.close-btn:hover {
+  background-color: #54d254;
+  border-radius: 5px;
+}
+
+.popup-content {
+  text-align: center;
+}
+
+.popup-content h2 {
+  margin-bottom: 10px;
+}
+
+.popup-content p {
+  margin-bottom: 20px;
+}
+
+.popup-content h3 {
+  margin-bottom: 20px;
+}
+
+.popup-content .btn_label {
+  padding: 10px 20px;
+  background-color: #214872;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 24em;
+  margin-right: 2em;
+}
+
+.popup-content .btn_label:hover {
+  background-color: #00004d;
+}
