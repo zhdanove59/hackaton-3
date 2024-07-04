@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./FormEmployer.css"; // Assurez-vous d'importer le fichier CSS
+import { Link } from "react-router-dom";
 
 function FormEmployer() {
   const [isPopupVisible, setIsPopupVisible] = useState(false);
@@ -64,9 +65,11 @@ function FormEmployer() {
               &times;
             </button>
             <div className="popup-content">
-              <button type="button" className="btn_label">
-                Voir Profils Candidats
-              </button>
+              <Link to="/ProfilsRetour">
+                <button type="button" className="btn_label">
+                  Voir Profils Candidats
+                </button>
+              </Link>
             </div>
           </div>
         </div>
