@@ -1,4 +1,4 @@
-import FormCan from "../../components/Formulaires/FormCan";
+import FormCan from "../../components/FormCan";
 
 function CandidatFormulaire() {
   return (

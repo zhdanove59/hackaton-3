@@ -24,7 +24,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/employeur",
-        element: <>goodbye</>,
+        element: <>employeur</>,
       },
       {
         path: "/AboutPage",
@@ -43,8 +43,14 @@ const router = createBrowserRouter([
         element: <ProfilsRetour />,
       },
       {
+
         path: "/EmployeurConnexion",
         element: <EmployeurConnexion />,
+      },
+      {
+        path: "/connexion",
+        element: <>connexion</>,
+
       },
     ],
   },
