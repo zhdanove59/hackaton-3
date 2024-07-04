@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+}
+
+.image-acceuil {
+  width: 100%;
+  height: 100%;
+}
+
+.button-candidat {
+  width: 40em;
+  height: 25em;
+  top: 38em;
+  left: 15em;
+  background-color: transparent;
+  border: none;
+  z-index: 1;
+  position: absolute;
+  cursor: pointer;
+}
+
+.button-employeur {
+  width: 40em;
+  height: 25em;
+  top: 38em;
+  left: 60em;
+  background-color: transparent;
+  border: none;
+  z-index: 1;
+  position: absolute;
+  cursor: pointer;
+}

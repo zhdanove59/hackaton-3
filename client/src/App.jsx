@@ -1,13 +1,6 @@
-import "./App.css";
-import FormEmployer from "./components/Formulaires/FormEmployer";
-import ProfileCards from "./components/Profils";
+import { Outlet } from "react-router-dom";
 
 function App() {
-  return (
-    <div>
-    <ProfileCards />
-      <FormEmployer />
-    </div>
-  );
-
+  return <Outlet />;
+}
 export default App;
