@@ -66,10 +66,6 @@ button {
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #0056b3;
-}
-
 .confirmation-message {
   margin-top: 20px;
   padding: 10px;
