@@ -40,7 +40,9 @@ function ConnexionEmployeur() {
               Remember for 30 days
             </label>
           </div>
-          <button type="submit">Se connecter</button>
+          <Link to="/EmployeurForm">
+            <button type="submit">Se connecter</button>
+          </Link>
           <div className="or-divider">
             <span>OU</span>
           </div>

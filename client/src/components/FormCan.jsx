@@ -42,7 +42,7 @@ function FormCan() {
   };
 
   return (
-    <div className="body-form">
+    <div className="body-form1">
       <div className="container-formcar">
         <button className="profil-candidat" type="button">
           .
