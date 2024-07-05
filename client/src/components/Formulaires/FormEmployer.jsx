@@ -316,6 +316,18 @@ function FormEmployer() {
   return (
     <div className="background-container">
       <div className="form-container-employer">
+        <button className="profil-employeur" type="button">
+          .
+        </button>
+        <div className="iconhome-employeur">
+          <Link to="/">
+            <img
+              className="home-icon"
+              src="../../src/assets/images/home.svg"
+              alt="home icon"
+            />
+          </Link>
+        </div>
         <h1 className="title">EMPLOYEUR</h1>
         <form>
           <div>

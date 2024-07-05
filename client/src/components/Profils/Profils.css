@@ -1,5 +1,5 @@
 .body-profils {
-  background-image: url(../assets/images/backgrounde.png);
+  background-image: url(../../assets/images/fondProfil.png);
 }
 .profile-cards-container {
   display: flex;
@@ -7,8 +7,21 @@
   gap: 20px;
   padding: 20px;
 }
+
+.profil-retour {
+  position: absolute;
+  width: 10em;
+  height: 5em;
+  margin-left: 90em;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: transparent;
+  margin-top: 2em;
+}
+
 .body-profils {
-  background-image: url(../../src/assets/images/backgrounde.png);
+  background-image: url(../../assets/images/fondProfil.png);
   background-repeat: no-repeat;
   background-size: 100%;
   display: flex;

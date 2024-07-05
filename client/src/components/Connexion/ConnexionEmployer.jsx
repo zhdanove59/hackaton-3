@@ -5,11 +5,15 @@ function ConnexionEmployeur() {
   return (
     <div className="background-container-connexion1">
       <div className="form-container-connexion-emp">
-        <Link to="/">
-          <button type="button" className="button-accueil-connexion-emp">
-            .
-          </button>
-        </Link>
+        <div className="iconhome-connexion">
+          <Link to="/">
+            <img
+              className="home-icon"
+              src="../../src/assets/images/home.svg"
+              alt="home icon"
+            />
+          </Link>
+        </div>
         <h1 className="title">Se connecter</h1>
         <p className="text-connexion">
           Entrez vos identifiants pour accéder à votre compte
@@ -25,7 +29,9 @@ function ConnexionEmployeur() {
             <label className="form-label-connexion-emp">
               Mot de passe
               <input type="password" placeholder="Entrez votre mot de passe" />
-              <a href="www.">Mot de passe oublié</a>
+              <a href="https://alzheimer-recherche.org/la-maladie-alzheimer/symptomes-et-diagnostic/testez-votre-memoire/">
+                Mot de passe oublié
+              </a>
             </label>
           </div>
           <div className="remember-emp">

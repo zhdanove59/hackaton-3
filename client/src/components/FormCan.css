@@ -2,13 +2,12 @@
   width: 30%;
   margin: 0 auto;
   padding: 20px;
-  /*border: 1px solid #ccc;*/
-  /*border-radius: 10px;*/
   background-color: transparent;
   margin-bottom: 5rem;
+  margin-top: -2em;
 }
 .body-form {
-  background-image: url(../../src/assets/images/backgrounde.png);
+  background-image: url("../../assets/images/fondProfil.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -17,10 +16,10 @@
   flex-direction: column;
   width: 100%;
 }
-.iconhome {
+.iconhome-candidat {
   display: flex;
   justify-content: center;
-  margin-top: 10rem;
+  margin-top: 2.5rem;
   margin-bottom: 2rem;
 }
 .home-icon {
@@ -54,13 +53,25 @@
   background-color: #e6f3e9;
 }
 
+.profil-candidat {
+  position: absolute;
+  width: 10em;
+  height: 5em;
+  margin-left: 95em;
+  margin-top: 2em;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: transparent;
+}
+
 .button-submit-formcan {
   display: block;
   width: 100%;
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #007bff;
+  background-color: #214872;
   color: white;
   font-size: 16px;
   cursor: pointer;

@@ -1,11 +1,29 @@
 .background-container {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../assets/images/backgrounde.png");
+  background-image: url("../../assets/images/fondProfil.png");
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.iconhome-employeur {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.profil-employeur {
+  position: absolute;
+  width: 10em;
+  height: 5em;
+  margin-left: 57em;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: transparent;
 }
 
 .title {
@@ -19,7 +37,7 @@
   padding: 20px;
   border-radius: 10px;
   width: 25em;
-  margin-top: 6.5em;
+  margin-top: -1em;
 }
 
 form {
@@ -144,7 +162,7 @@ form textarea {
   border-radius: 5px;
   cursor: pointer;
   margin-top: 24em;
-  margin-right: 2em;
+  margin-right: 1em;
   margin-left: 0;
 }
 

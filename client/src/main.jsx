@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AboutPage from "./components/AboutPage/AboutPage";
 import EmployeurForm from "./pages/EmployeurForm/EmployeurForm";
 import CandidatFormulaire from "./pages/CandidatFormulaire/CandidatFormulaire";
+
 import ProfilsRetour from "./components/Profils/Profils";
 import Accueil from "./components/Accueil"
 
@@ -16,13 +17,21 @@ import ConnexionEmployeur from "./components/Connexion/ConnexionEmployer";
 import ConnexionCandidat from "./components/Connexion/ConnexionCandidat";
 
 
+import ProfilsRetour from "./pages/ProfilsRetour/ProfilsRetour";
+import Accueil from "./components/Accueil";
+import EmployeurConnexion from "./pages/EmployeurConnexion/EmployeurConnexion";
+import App from "./App";
+import Inscription from "./components/Formulaires/Inscription";
+import RecapCv from "./components/RecapCv";
+
+
 const router = createBrowserRouter([
   {
     element: <App />,
     children: [
       {
         path: "/",
-        element: <Accueil/>,
+        element: <Accueil />,
       },
       {
         path: "/inscription-candidat",
@@ -34,7 +43,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/recapitulatif",
-        element: <RecapCv/>,
+        element: <RecapCv />,
       },
       {
         path: "/AboutPage",
@@ -54,6 +63,7 @@ const router = createBrowserRouter([
       },
       {
 
+
         path: "/login-candidat",
         element: <ConnexionCandidat/>,
       },
@@ -61,10 +71,12 @@ const router = createBrowserRouter([
 
         path: "/login-employer",
         element: <ConnexionEmployeur/>,
+
       },
       {
         path: "/connexion",
         element: <>connexion</>,
+
 
       },{
 
