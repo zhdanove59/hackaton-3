@@ -5,10 +5,13 @@ import AboutPage from "./components/AboutPage/AboutPage";
 import EmployeurForm from "./pages/EmployeurForm/EmployeurForm";
 import CandidatFormulaire from "./pages/CandidatFormulaire/CandidatFormulaire";
 import ProfilsRetour from "./pages/ProfilsRetour/ProfilsRetour";
+import ProfilsRetour from "./components/Profils/Profils";
+import Accueil from "./components/Accueil"
 import EmployeurConnexion from "./pages/EmployeurConnexion/EmployeurConnexion";
 import App from "./App";
-import Accueil from "./components/Accueil";
-import FormCan from "./components/FormCan";
+import Inscription from "./components/Formulaires/Inscription";
+import RecapCv from "./components/RecapCv"
+
 
 const router = createBrowserRouter([
   {
@@ -16,15 +19,19 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Accueil />,
+        element: <Accueil/>,
       },
       {
         path: "/candidat",
-        element: <FormCan />,
+        element: <Inscription/>,
       },
       {
         path: "/employeur",
         element: <>employeur</>,
+      },
+      {
+        path: "/recapitulatif",
+        element: <RecapCv/>,
       },
       {
         path: "/AboutPage",
