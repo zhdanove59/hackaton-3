@@ -1,8 +1,8 @@
 import { useState } from "react";
-import "./Inscription.css";
+import "./InscriptionEm.css";
 import { Link } from "react-router-dom";
 
-function Inscription() {
+function InscriptionEm() {
   const [formData, setFormData] = useState({
     nom: "",
     prenom: "",
@@ -36,7 +36,7 @@ function Inscription() {
   };
 
   return (
-    <div className="body-form1">
+    <div className="body-form">
       <div className="container-formcar">
         <div className="iconhome">
           <Link to="/">
@@ -53,7 +53,7 @@ function Inscription() {
           <form onSubmit={handleSubmit}>
             <div className="form-group">
               <label htmlFor="nom" className="label-inscription">
-                Nom{" "}
+                Nom de l'entreprise{" "}
               </label>
               <input
                 type="text"
@@ -116,4 +116,4 @@ function Inscription() {
   );
 }
 
-export default Inscription;
+export default InscriptionEm;

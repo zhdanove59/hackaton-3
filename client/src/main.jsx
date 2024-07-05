@@ -7,10 +7,13 @@ import CandidatFormulaire from "./pages/CandidatFormulaire/CandidatFormulaire";
 import ProfilsRetour from "./components/Profils/Profils";
 import Accueil from "./components/Accueil"
 
-import EmployeurConnexion from "./pages/EmployeurConnexion/EmployeurConnexion";
+
 import App from "./App";
 import Inscription from "./components/Formulaires/Inscription";
 import RecapCv from "./components/RecapCv"
+import InscriptionEm from "./components/Formulaires/InscriptionEm";
+import ConnexionEmployeur from "./components/Connexion/ConnexionEmployer";
+import ConnexionCandidat from "./components/Connexion/ConnexionCandidat";
 
 
 const router = createBrowserRouter([
@@ -22,7 +25,7 @@ const router = createBrowserRouter([
         element: <Accueil/>,
       },
       {
-        path: "/candidat",
+        path: "/inscription-candidat",
         element: <Inscription/>,
       },
       {
@@ -51,13 +54,22 @@ const router = createBrowserRouter([
       },
       {
 
-        path: "/EmployeurConnexion",
-        element: <EmployeurConnexion />,
+        path: "/login-candidat",
+        element: <ConnexionCandidat/>,
+      },
+      {
+
+        path: "/login-employer",
+        element: <ConnexionEmployeur/>,
       },
       {
         path: "/connexion",
         element: <>connexion</>,
 
+      },{
+
+        path: "/inscription-employeur",
+        element: <InscriptionEm />,
       },
     ],
   },

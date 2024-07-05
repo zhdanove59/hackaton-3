@@ -1,7 +1,7 @@
-.background-container-connexion1 {
+.background-container-connexion {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../assets/images/LoginPro.png");
+  background-image: url("../../assets/images/LoginCan1.png");
   background-size: cover;
   display: flex;
   justify-content: center;

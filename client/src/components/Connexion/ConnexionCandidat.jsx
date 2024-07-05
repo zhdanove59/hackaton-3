@@ -1,9 +1,9 @@
-import "./ConnexionEmployer.css";
+import "./ConnexionCandidat.css";
 import { Link } from "react-router-dom";
 
-function ConnexionEmployeur() {
+function ConnexionCandidat() {
   return (
-    <div className="background-container-connexion1">
+    <div className="background-container-connexion">
       <div className="form-container-connexion-emp">
         <Link to="/">
           <button type="button" className="button-accueil-connexion-emp">
@@ -49,8 +49,8 @@ function ConnexionEmployeur() {
           <div className="signup-container">
             <div>Vous n'avez pas de compte? </div>
             <div>
-              <Link to="/inscription-employeur">
-                <a href="www.">s'inscrire</a>
+              <Link to="/inscription-candidat">
+              <a href="www.">s'inscrire</a>
               </Link>
             </div>
           </div>
@@ -60,4 +60,4 @@ function ConnexionEmployeur() {
   );
 }
 
-export default ConnexionEmployeur;
+export default ConnexionCandidat;
