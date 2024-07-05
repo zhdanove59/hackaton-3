@@ -9,7 +9,7 @@
   margin-top: -2em;
 }
 .body-form {
-  background-image: url(../../assets/images/fondProfil.png);
+  background-image: url("../../assets/images/fondProfil.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
