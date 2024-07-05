@@ -1,0 +1,56 @@
+.body-recap {
+  background-image: url(../../src/assets/images/Page\ demandeurdemploi.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-recap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.section-recap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e6f3e9;
+  padding: 1rem;
+  margin-bottom: 4rem;
+  border-radius: 5px;
+}
+.h4-recap {
+  padding-bottom: 1rem;
+}
+.p-recap {
+  line-height: 1.6;
+}
+.iconhome1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+.home-icon1 {
+  transition: transform 0.2s ease-in-out;
+}
+.home-icon1:hover {
+  transform: scale(1.2);
+}
+.h4-center {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+}
+
+.h2-recap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}

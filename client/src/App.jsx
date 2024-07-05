@@ -1,12 +1,6 @@
-import "./App.css";
-import FormEmployer from "./components/Formulaires/FormEmployer";
+import { Outlet } from "react-router-dom";
 
 function App() {
-  return (
-    <div>
-      <FormEmployer />
-    </div>
-  );
+  return <Outlet />;
 }
-
 export default App;

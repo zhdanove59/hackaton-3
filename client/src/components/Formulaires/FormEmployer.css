@@ -1,26 +1,43 @@
-/* Styles existants... */
-
 .background-container {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../assets/images/backgrounde.png");
+  background-image: url("../../assets/images/fondProfil.png");
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.iconhome-employeur {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.profil-employeur {
+  position: absolute;
+  width: 10em;
+  height: 5em;
+  margin-left: 57em;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: transparent;
+}
+
 .title {
   font-size: 20px;
   text-align: center;
   margin-bottom: 2em;
+  font-family: sans-serif;
 }
 
-.form-container {
+.form-container-employer {
   padding: 20px;
   border-radius: 10px;
   width: 25em;
-  margin-top: 10em;
+  margin-top: -1em;
 }
 
 form {
@@ -70,10 +87,6 @@ form textarea {
   margin-top: 1em;
 }
 
-button:hover {
-  background-color: #00004d;
-}
-
 /* Styles pour la popup */
 
 .popup-overlay {
@@ -110,19 +123,19 @@ button:hover {
 
 .close-btn {
   position: absolute;
-  top: 10px;
+  top: 16px;
   right: 10px;
   background: none;
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
   color: white;
-  margin-right: 0.3em;
+  margin-right: 0.5em;
 }
 
 .close-btn:hover {
-  background-color: #54d254;
   border-radius: 5px;
+  background: none;
 }
 
 .popup-content {
@@ -149,7 +162,8 @@ button:hover {
   border-radius: 5px;
   cursor: pointer;
   margin-top: 24em;
-  margin-right: 2em;
+  margin-right: 1em;
+  margin-left: 0;
 }
 
 .popup-content .btn_label:hover {

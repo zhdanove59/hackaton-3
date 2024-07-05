@@ -1,0 +1,171 @@
+.background-container-connexion {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets/images/fondConnexion.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconhome-connexion {
+  margin-top: -14em;
+  margin-left: 49.5em;
+  position: absolute;
+}
+
+.button-accueil-connexion-emp {
+  position: absolute;
+  width: 15em;
+  height: 5em;
+  background-color: transparent;
+  right: 11em;
+  top: 1em;
+  cursor: pointer;
+}
+
+.form-container-connexion-emp {
+  padding: 20px;
+  /* border-radius: 10px; */
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  margin-top: 6.5em;
+  /* background-color: white; */
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.text-connexion {
+  margin-bottom: 2em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+.form-label-connexion-emp {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #10806c;
+  border-radius: 5px;
+}
+
+.remember-emp {
+  display: flex;
+}
+
+form a {
+  display: block;
+  margin-top: 5px;
+  text-align: right;
+  color: #10806c;
+  text-decoration: none;
+}
+
+form input[type="checkbox"] {
+  margin-right: -20px;
+  width: 1.2em;
+}
+
+.remember-days {
+  margin-left: 2em;
+  margin-top: 0.8em;
+}
+
+form button {
+  padding: 10px;
+  background-color: #214872;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.or-divider {
+  margin: 20px 0;
+  text-align: center;
+  position: relative;
+}
+
+.or-divider span {
+  background: white;
+  padding: 0 10px;
+}
+
+.or-divider::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #ccc;
+  z-index: -1;
+}
+
+.social-login {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-login button {
+  flex: 1;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+
+  transition:
+    background-color 0.3s,
+    color 0.3s; /* Pour des effets de survol */
+}
+
+.google-login-connexion {
+  background-color: blue; /* Couleur de fond pour Google */
+  color: white; /* Couleur du texte pour Google */
+}
+
+.apple-login-connexion {
+  background-color: black; /* Couleur de fond pour Apple */
+  color: white; /* Couleur du texte pour Apple */
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 0.5em;
+}
+
+.signup-prompt {
+  margin-top: 20px;
+}
+
+.signup-prompt a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Effets de survol (hover) */
+.social-login button:hover {
+  background-color: #f0f0f0; /* Légère variation sur survol */
+  color: black;
+}

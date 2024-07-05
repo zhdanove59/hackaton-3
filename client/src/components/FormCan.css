@@ -1,0 +1,92 @@
+.form-container {
+  width: 30%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: transparent;
+  margin-bottom: 5rem;
+  margin-top: -2em;
+}
+.body-form {
+  background-image: url("../../assets/images/fondProfil.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.container-formcar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.iconhome-candidat {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+.home-icon {
+  transition: transform 0.2s ease-in-out;
+}
+.home-icon:hover {
+  transform: scale(1.2);
+}
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+
+  background-color: #e6f3e9;
+}
+
+.profil-candidat {
+  position: absolute;
+  width: 10em;
+  height: 5em;
+  margin-left: 95em;
+  margin-top: 2em;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: transparent;
+}
+
+.button-submit-formcan {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #214872;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-submit-formcan:hover {
+  background-color: #0056b3;
+}
+
+.confirmation-message {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #4caf50;
+  border-radius: 5px;
+  background-color: #dff0d8;
+  color: #3c763d;
+  text-align: center;
+}
