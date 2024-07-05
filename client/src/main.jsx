@@ -6,24 +6,16 @@ import EmployeurForm from "./pages/EmployeurForm/EmployeurForm";
 import CandidatFormulaire from "./pages/CandidatFormulaire/CandidatFormulaire";
 
 import ProfilsRetour from "./components/Profils/Profils";
-import Accueil from "./components/Accueil"
 
-
-import App from "./App";
-import Inscription from "./components/Formulaires/Inscription";
-import RecapCv from "./components/RecapCv"
 import InscriptionEm from "./components/Formulaires/InscriptionEm";
 import ConnexionEmployeur from "./components/Connexion/ConnexionEmployer";
 import ConnexionCandidat from "./components/Connexion/ConnexionCandidat";
 
-
-import ProfilsRetour from "./pages/ProfilsRetour/ProfilsRetour";
 import Accueil from "./components/Accueil";
-import EmployeurConnexion from "./pages/EmployeurConnexion/EmployeurConnexion";
+
 import App from "./App";
 import Inscription from "./components/Formulaires/Inscription";
 import RecapCv from "./components/RecapCv";
-
 
 const router = createBrowserRouter([
   {
@@ -35,7 +27,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/inscription-candidat",
-        element: <Inscription/>,
+        element: <Inscription />,
       },
       {
         path: "/employeur",
@@ -62,24 +54,22 @@ const router = createBrowserRouter([
         element: <ProfilsRetour />,
       },
       {
-
-
         path: "/login-candidat",
-        element: <ConnexionCandidat/>,
+        element: <ConnexionCandidat />,
       },
       {
-
+        path: "/login-candidat",
+        element: <ConnexionCandidat />,
+      },
+      {
         path: "/login-employer",
-        element: <ConnexionEmployeur/>,
-
+        element: <ConnexionEmployeur />,
       },
       {
         path: "/connexion",
         element: <>connexion</>,
-
-
-      },{
-
+      },
+      {
         path: "/inscription-employeur",
         element: <InscriptionEm />,
       },

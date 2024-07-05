@@ -6,7 +6,7 @@ function Accueil() {
   const [connexion, setConnexion] = useState(false);
   return (
     <>
-      <Link to="/CandidatFormulaire">
+      <Link to="/inscription-candidat">
         <button type="button" className="button-candidat">
           .
         </button>
@@ -26,12 +26,16 @@ function Accueil() {
       >
         {connexion && (
           <div className="set-button-connexion">
+            <Link to ="/login-candidat">
             <button type="button" className="button-set" id="button-vert">
               CANDIDAT
             </button>
+            </Link>
+            <Link to = "/login-employer">
             <button type="button" className="button-set" id="button-blue">
               EMPLOYEUR
             </button>
+            </Link>
           </div>
         )}
         .

@@ -36,7 +36,7 @@ function InscriptionEm() {
   };
 
   return (
-    <div className="body-form">
+    <div className="body-form3">
       <div className="container-formcar">
         <div className="iconhome">
           <Link to="/">

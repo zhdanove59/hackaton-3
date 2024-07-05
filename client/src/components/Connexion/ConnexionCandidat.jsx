@@ -34,7 +34,9 @@ function ConnexionCandidat() {
               Remember for 30 days
             </label>
           </div>
+          <Link to ="/CandidatFormulaire">
           <button type="submit">Se connecter</button>
+          </Link>
           <div className="or-divider">
             <span>OU</span>
           </div>
