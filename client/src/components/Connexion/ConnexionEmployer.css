@@ -1,11 +1,17 @@
 .background-container-connexion {
   width: 100vw;
   height: 100vh;
-  background-image: url("../../assets/images/LoginEmp.png");
+  background-image: url("../../assets/images/fondConnexion.png");
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.iconhome-connexion {
+  margin-top: -14em;
+  margin-left: 49.5em;
+  position: absolute;
 }
 
 .button-accueil-connexion-emp {

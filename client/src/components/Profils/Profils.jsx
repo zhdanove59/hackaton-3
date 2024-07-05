@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 function ProfileCard() {
   return (
     <div className="body-profils">
+      <button className="profil-retour" type="button">
+        .
+      </button>
       <section className="profils">
         <Link to="/">
           <img

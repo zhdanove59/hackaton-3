@@ -44,7 +44,10 @@ function FormCan() {
   return (
     <div className="body-form">
       <div className="container-formcar">
-        <div className="iconhome">
+        <button className="profil-candidat" type="button">
+          .
+        </button>
+        <div className="iconhome-candidat">
           <Link to="/">
             <img
               className="home-icon"

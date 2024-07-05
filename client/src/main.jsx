@@ -4,9 +4,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AboutPage from "./components/AboutPage/AboutPage";
 import EmployeurForm from "./pages/EmployeurForm/EmployeurForm";
 import CandidatFormulaire from "./pages/CandidatFormulaire/CandidatFormulaire";
+import ProfilsRetour from "./pages/ProfilsRetour/ProfilsRetour";
 import ProfilsRetour from "./components/Profils/Profils";
 import Accueil from "./components/Accueil"
-
 import EmployeurConnexion from "./pages/EmployeurConnexion/EmployeurConnexion";
 import App from "./App";
 import Inscription from "./components/Formulaires/Inscription";
@@ -50,14 +50,12 @@ const router = createBrowserRouter([
         element: <ProfilsRetour />,
       },
       {
-
         path: "/EmployeurConnexion",
         element: <EmployeurConnexion />,
       },
       {
         path: "/connexion",
         element: <>connexion</>,
-
       },
     ],
   },
