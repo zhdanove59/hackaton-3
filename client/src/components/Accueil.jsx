@@ -4,7 +4,7 @@ import "./Accueil.css";
 function Accueil() {
   return (
     <>
-      <Link to="/candidat">
+      <Link to="/CandidatFormulaire">
         <button type="button" className="button-candidat">
           .
         </button>

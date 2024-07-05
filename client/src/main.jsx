@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AboutPage from "./components/AboutPage/AboutPage";
 import EmployeurForm from "./pages/EmployeurForm/EmployeurForm";
 import CandidatFormulaire from "./pages/CandidatFormulaire/CandidatFormulaire";
-import ProfilsRetour from "./components/Profils/Profils";
+import ProfilsRetour from "./pages/ProfilsRetour/ProfilsRetour";
 import EmployeurConnexion from "./pages/EmployeurConnexion/EmployeurConnexion";
 import App from "./App";
 import Accueil from "./components/Accueil";
@@ -43,14 +43,12 @@ const router = createBrowserRouter([
         element: <ProfilsRetour />,
       },
       {
-
         path: "/EmployeurConnexion",
         element: <EmployeurConnexion />,
       },
       {
         path: "/connexion",
         element: <>connexion</>,
-
       },
     ],
   },
